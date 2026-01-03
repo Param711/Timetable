@@ -1,0 +1,13 @@
+/* Basic reset */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Hide scrollbar for the mobile tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
